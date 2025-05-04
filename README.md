@@ -83,3 +83,13 @@ YOLOv8n 기반의 모델을 사용하여 두 엣지 디바이스에서의 처리
 ### 라이선스 (License)
 
 본 프로젝트는 [MIT License](./LICENSE)를 따릅니다.
+
+---
+
+### Author
+
+김지섭 (Kim JiSeob)  
+GitHub: [https://github.com/kjs6702](https://github.com/kjs6702)
+
+강인경 (Kang InGyeong)  
+GitHub: [https://github.com/ingg03](https://github.com/ingg03)
