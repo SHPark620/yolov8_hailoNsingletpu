@@ -10,7 +10,6 @@ YOLOv8n 기반의 모델을 사용하여 두 엣지 디바이스에서의 처리
 ### 프로젝트 구성 (Project Structure)
 
 ```
-📁 models/               # YOLOv8n .tflite, .hef 모델 파일
 📁 scripts/              # 추론 실행 및 측정 스크립트
 📁 results/              # 시각화 자료
 📁 README.md             # 이 문서
