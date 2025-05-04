@@ -54,6 +54,7 @@ YOLOv8n 기반의 모델을 사용하여 두 엣지 디바이스에서의 처리
 | Static Frame FPS | 6.64 FPS          | 14.44 FPS             | 131.93 FPS         |
 
 > ※ video avg fps: 90초짜리 100fps 영상 10회 실행 평균
+
 > ※ static frame avg fps: 100개의 정지 이미지 × 150 frame 기준 계산
 
 ---
