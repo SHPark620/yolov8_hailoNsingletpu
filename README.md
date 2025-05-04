@@ -34,13 +34,13 @@ YOLOv8n 기반의 모델을 사용하여 두 엣지 디바이스에서의 처리
 ###  사용한 모델 (Models)
 
 * **객체 탐지 모델**: YOLOv8n
-* //yolo구조도 삽입 예정
+![yolov8n_architecture](./results/04_yolov8n_architecture.png)
 * **형식**:
 
   * Coral: `YOLOv8n_int8_edgetpu.tflite`
   * Hailo: `YOLOv8n_8bit_quantized.hef`
   * Pi5 단독 실행: `YOLOv8n_float32.tflite`
-  * //모델 변환하는 그림 삽입예정
+![model_conversion_flow](./results/02_model_conversion_flow.png)
 
 ---
 
@@ -57,6 +57,9 @@ YOLOv8n 기반의 모델을 사용하여 두 엣지 디바이스에서의 처리
 
 > ※ static frame avg fps: 100개의 정지 이미지 × 150 frame 기준 계산
 
+### Batch Size 변화에 따른 Hailo의 fps변화 (Performance Comparison)
+![hailo_batchsize_fps](./results/05_hailo_batchsize_fps.png)
+
 ---
 
 ### 데이터셋 (Dataset)
@@ -64,7 +67,7 @@ YOLOv8n 기반의 모델을 사용하여 두 엣지 디바이스에서의 처리
 * AI Hub: "자동차 차종/연식/번호판 인식용 영상"
 * 사용량: 학습(700장), 검증(200장), 테스트(100장)
 * 출처: [aihub.or.kr](https://aihub.or.kr)
-* //이미지 삽입예정정
+![data_preprocessing](./results/01_data_preprocessing.png)
 
 ---
 
