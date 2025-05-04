@@ -12,8 +12,8 @@ YOLOv8n 기반의 모델을 사용하여 두 엣지 디바이스에서의 처리
 ```
 📁 src/                  # 소스코드
 📁 results/              # 시각화 자료
-📁 README.md             # 이 문서
-📁 requirement.txt
+📁 README.md             # 프로젝트 설명 문서
+📁 requirement.txt       # 의존 패키지 리스트
 ```
 
 ---
